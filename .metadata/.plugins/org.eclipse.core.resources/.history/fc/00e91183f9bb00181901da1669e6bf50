@@ -1,0 +1,19 @@
+package com.capgemini.bankapp.repository.impl;
+
+import com.capgemini.bankapp.repository.BankAccountRepository;
+
+public class BankAccountRepositoryimpl implements BankAccountRepository {
+
+	@Override
+	public double getBalance(long accountId) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public boolean updateBalance(long accountId, double newBalance) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}
