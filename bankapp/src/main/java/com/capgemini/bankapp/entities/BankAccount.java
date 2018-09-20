@@ -2,14 +2,14 @@ package com.capgemini.bankapp.entities;
 
 public class BankAccount {
 
-	private static long accountId;
+	private long accountId;
 	private String accountHolderName;
 	private String accountType;
 	private double accountBalance;
 	
 	public BankAccount() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	public BankAccount(long accountId, String accountHolderName, String accountType, double accountBalance) {
@@ -20,7 +20,7 @@ public class BankAccount {
 		this.accountBalance = accountBalance;
 	}
 	
-	public static long getAccountId() {
+	public long getAccountId() {
 		return accountId;
 	}
 	public void setAccountId(long accountId) {
