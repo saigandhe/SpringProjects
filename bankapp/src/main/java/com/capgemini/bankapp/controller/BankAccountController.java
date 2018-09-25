@@ -5,7 +5,6 @@ import org.springframework.stereotype.Controller;
 
 import com.capgemini.bankapp.exception.AccountNotFoundException;
 import com.capgemini.bankapp.exception.LowBalanceException;
-import com.capgemini.bankapp.repository.BankAccountRepository;
 import com.capgemini.bankapp.service.BankAccountService;
 
 @Controller

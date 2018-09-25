@@ -4,14 +4,9 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.HashSet;
-
-
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.capgemini.bankapp.entities.BankAccount;
 import com.capgemini.bankapp.exception.AccountNotFoundException;
 import com.capgemini.bankapp.repository.BankAccountRepository;
 import com.capgemini.bankapp.util.Databaseutil;
@@ -84,4 +79,10 @@ public class BankAccountRepositoryimpl implements BankAccountRepository {
 		return false;
 	}
 
+
+
+
+
+
+	
 }
